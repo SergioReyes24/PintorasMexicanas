@@ -1,0 +1,53 @@
+body{ /*Le da color rosa al fondo de la página y le pone un margen de 30 pixeles. */
+    background-color: #f7c5d8; 
+    margin: 30px;
+}
+
+h1{ /*Alinea el título al centro, le da color rojo, lo redimensiona a 50 pixeles y le da una sombra al texto de otro color. */
+    text-align: center; 
+    color: rgb(224, 12, 94) ;
+    font-size: 50px; 
+    text-shadow: 8px 1px rgb(41, 1, 1);
+}
+
+h2{ /*Los subtítulos tienen otra fuente, otro color y otro tamaño. */
+    font-family: monospace; 
+    color: rgb(212, 36, 36); 
+    font-size: 23px;
+}
+
+h3{ /* La información de las pintoras destaca menos, por ello le di otro color y otro tamaño. */
+    color: rgb(85, 4, 61); 
+    font-size: 18px;
+}
+
+h4{ /*Los nombres de las pintoras tienen otro color y tamaño. */
+    color: rgb(120, 32, 221); 
+    font-size: 23px;
+}
+.pintoras{ /*Estas propiedades crean un contenedor con un borde de un estilo, con color de fondo y sombra. Esta alineado, tiene padding y otra fuente para que se vea más estilizado. */
+    border-style: dashed; 
+    border-width: 2px;
+    border-color: rgb(233, 17, 17);
+    display: inline-table;   
+    text-align: center;
+    width: 410px; 
+    height: 770px; 
+    background-color: rgb(255, 125, 125); 
+    box-shadow: 10px 20px rgb(255, 20, 39);
+    padding: 10px;
+    padding-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.im{ /*Las imagenes tienen el mismo tamaño, estan centradas y tienen un padding para que se separen del texto. */
+    width: 320px; 
+    height: 320px; 
+    display:block;
+    margin:auto;
+    padding: 10px;
+}
+
+ul{ /*Le da otro estilo a la lista de las referencias. */
+    list-style-type: circle;
+}
